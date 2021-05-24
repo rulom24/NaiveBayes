@@ -12,15 +12,6 @@ Lo consiguen proporcionando una forma de calcular la probabilidad 鈥榩osterior鈥
 
 ![one image](https://github.com/rulom24/NaiveBayes/blob/main/Formula.png)
 
-# Algoritmo Naive Bayes Supervisado
-
-A continuaci贸n se listan los pasos que hay que realizar para poder utilizar el algoritmo Naive Bayes en problemas de clasificaci贸n como el mostrado en el apartado anterior.
-
-1. Convertir el conjunto de datos en una tabla de frecuencias.
-2. Crear una tabla de probabilidad calculando las correspondientes a que ocurran los diversos eventos.
-3. La ecuaci贸n Naive Bayes se usa para calcular la probabilidad posterior de cada clase.
-4. La clase con la probabilidad posterior m谩s alta es el resultado de la predicci贸n.
-
 # Puntos fuertes y d茅biles de Naive Bayes
 
 # Los puntos fuertes principales son
