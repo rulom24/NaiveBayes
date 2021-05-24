@@ -9,4 +9,4 @@ Proporcionan una manera fácil de construir modelos con un comportamiento muy bu
 
 Lo consiguen proporcionando una forma de calcular la probabilidad ‘posterior’ de que ocurra un cierto evento A, dadas algunas probabilidades de eventos ‘anteriores’.
 
-![one image](https://github.com/rulom24/NaiveBayes/Formula.png)
+![one image](https://github.com/rulom24/NaiveBayes/blob/main/Formula.png)
