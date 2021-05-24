@@ -12,6 +12,49 @@ Lo consiguen proporcionando una forma de calcular la probabilidad ‘posterior�
 
 ![one image](https://github.com/rulom24/NaiveBayes/blob/main/Formula.png)
 
+# Ejemplo
+Presentaremos los conceptos principales del algoritmo Naive Bayes estudiando un ejemplo.
+
+Consideremos el caso de dos compañeros que trabajan en la misma oficina: Alicia y Bruno. Sabemos que:
+
+- Alicia viene a la oficina 3 días a la semana.
+- Bruno viene a la oficina 1 día a la semana.
+
+Esta sería nuestra información “anterior”.
+
+Estamos en la oficina y vemos pasar delante de nosotros a alguien muy rápido, tan rápido que no sabemos si es Alicia o Bruno.
+
+Dada la información que tenemos hasta ahora y asumiendo que solo trabajan 4 días a la semana, las probabilidades de que la persona vista sea Alicia o Bruno, son:
+
+- P(Alicia) = 3/4 = 0.75
+- P(Bruno) = 1/4 = 0.25
+
+Cuando vimos a la persona pasar, vimos que él o ella llevaba una chaqueta roja. También sabemos lo siguiente:
+
+- Alicia viste de rojo 2 veces a la semana.
+- Bruno viste de rojo 3 veces a la semana.
+
+Así que, para cada semana de trabajo, que tiene cinco días, podemos inferir lo siguiente:
+
+- La probabilidad de que Alicia vista de rojo es → P(Rojo|Alicia) = 2/5 = 0.4
+- La probabilidad de que Bruno vista de rojo → P(Rojo|Bruno) = 3/5 = 0.6
+
+Entonces, con esta información, ¿a quién vimos pasar? (en forma de probabilidad)
+
+Esta nueva probabilidad será la información ‘posterior’.
+
+![two image](https://github.com/rulom24/NaiveBayes/blob/main/Posterior.png)
+
+Inicialmente conocíamos las probabilidades P(Alicia) y P(Bruno), y después inferíamos las probabilidades de P(rojo|Alicia) y P(rojo|Bruno).
+
+De forma que las probabilidades reales son:
+
+![three image](https://github.com/rulom24/NaiveBayes/blob/main/Probabilidades.png)
+
+Formalmente, el gráfico previo sería:
+
+![four image](https://github.com/rulom24/NaiveBayes/blob/main/Grafico.png)
+
 # Puntos fuertes y débiles de Naive Bayes
 
 # Los puntos fuertes principales son
