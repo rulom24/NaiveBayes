@@ -3,7 +3,7 @@ import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 import org.apache.spark.sql.SparkSession
 
 // Cargar datos en formato de almacenamiento LIBSVM como un DataFrame.
-val data = spark.read.format("libsvm").load("C:/Users/brise/Documents/GitHub/spark/data/mllib/sample_libsvm_data.txt")
+val data = spark.read.format("libsvm").load("C:/Users/brise/Documents/GitHub/NaiveBayes/sample_libsvm_data.txt")
 
 println ("Numero de lineas en el archivo de datos:" + data.count ())
 
