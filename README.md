@@ -68,3 +68,11 @@ Formalmente, el gráfico previo sería:
 - Aunque son unos clasificadores bastante buenos, los algoritmos Naive Bayes son conocidos por ser pobres estimadores. Por ello, no se deben tomar muy en serio las probabilidades que se obtienen.
 - La presunción de independencia Naive muy probablemente no reflejará cómo son los datos en el mundo real.
 - Cuando el conjunto de datos de prueba tiene una característica que no ha sido observada en el conjunto de entrenamiento, el modelo le asignará una probabilidad de cero y será inútil realizar predicciones. Uno de los principales métodos para evitar esto, es la técnica de suavizado, siendo la estimación de Laplace una de las más populares.
+
+# Bibliografía
+- VICTOR ROMAN. (2019-04-25). Algoritmos Naive Bayes: Fundamentos e Implementación. 2019-04-25, de CIENCIA&DATOS Sitio web: https://medium.com/datos-y-ciencia/algoritmos-naive-bayes-fudamentos-e-implementaci%C3%B3n-4bcb24b307f
+- LIGDI GONZALEZ. (2019-09-20). Naive Bayes – Teoría. 2019-09-20, de APRENDE IA Sitio web: https://aprendeia.com/naive-bayes-teoria-machine-learning/
+
+Vídeo explicación: https://www.youtube.com/watch?v=949tYJgRvRg
+
+Ejemplo código: https://programmerclick.com/article/84791158027/
